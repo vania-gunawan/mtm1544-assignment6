@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 6: Grid Page Layout</title>
+    <link rel="stylesheet" href="css/styles.css">
+    
+</head>
+
+<body>
+    <a href="#main" class="skip-link">Skip to main content</a>
+
+    <header class="site-header">
+        <div class="logo">Bellis Blossom logo</div>
+       
+        <nav class="nav" aria-label="main navigation">
+            <a href="#">Home</a>
+            <a href="#">Collections</a>
+            <a href="#">Projects</a>
+            <a href="#">About Us</a>
+            <a href="#">Contact Us</a>
+            <a href="#">Log in</a>
+        </nav>     
+    </header>
+
+    <main id="main">
+        <section class="hero-section">
+             <img class="hero-image" src="images/hero.jpg"alt="Bride holding a wedding flower bouquet">
+             <h1>Wedding Flowers, Made for you</h1>
+                <p>Your vision, beautifully brought to life</p>
+                <a href="collections.html">Explore our Collections</a>
+                <!--Carousel indicators-->
+        </section>
+
+        <!--Collection Section-->
+         <section class="collection-section">
+            <h2 id="collections">Explore our Collections</h2>
+            <!--By Flowers Button-->
+            <!--By Arrangements Button-->
+            <ul class="collections-grid">
+                <li class="flower-card">
+                    <a href="rose.html">
+                    <img class="rose-image" src="images/rose.jpg"alt="Bride holding a bouquet of pink and purple roses">
+                    Rose
+                    </a>
+                </li>
+                
+                <li class="flower-card">
+                    <a href="collections.html">
+                    <img class="daisy-image" src="images/daisy.jpg"alt="Woman holding a bouquet of daisies behind her back">
+                    Daisy
+                    </a>
+                </li>
+
+                <li class="flower-card">
+                    <a href="collections.html">
+                    <img class="lily-image" src="images/lily.jpg"alt="Close-up of a white lily flower">
+                    Lily
+                    </a>
+                </li>
+                
+                <li class="flower-card">
+                    <a href="collections.html">
+                    <img class="peony-image" src="images/peony.jpg"alt="Close-up of a pink peony flower">
+                    Peony
+                    </a>
+                </li>
+            </ul>
+        </section>
+                
+        <!--Wedding Highlights video section-->
+        <section>
+            <div class="video-container">
+                <p>Past Project Video</p>
+            </div>
+
+        <h2 id="highlights">Wedding Highlights</h2>
+        <a class="book-consultation" href="contact.html">Book a Consultation</a>
+   
+        </section>
+
+        <!--Client Testimonials Section-->
+        <section class="client-testimonial"> 
+            <h2 id="testimonials">Client Testimonials</h2>
+            <!--Image-->
+            <blockquote>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam porta efficitur justo quis volutpat. Integer vitae maximus eros, et pretium metus.</p>
+            </blockquote>
+            <!--Carousel indicators-->
+        </section>
+    </main>
+
+     <footer>
+        <div class="footer-row">
+
+            <div class="footer-column">
+            <p>Bellis Blossom</p>
+            <address> Nepean, Ottawa</address>
+        </div>
+        
+            <div class="footer-column">
+                <nav class="footer-nav" aria-label="footer navigation">
+                    <a href="#">Collections</a>
+                    <a href="#">Projects</a>
+                </nav>
+        
+            <div class="socialmedia">
+                <a href="#">Instagram</a>
+                <a href="#">Facebook</a>
+                <a href="#">Youtube</a>
+            </div>
+
+            <p>&copy; 2026 Bellis Blossom. All rights reserved.</p>
+        </div>
+
+        <div class="footer-column">
+            <h2>Stay connected with us!</h2>
+            <label for="email">Email address</label>
+            <input type="email" id="email" name="email" autocomplete="email">
+        </div>
+        </
+    </footer>  
+    
+</body>
+</html>

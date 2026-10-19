@@ -1,0 +1,183 @@
+* {
+  box-sizing: border-box;
+}
+
+.site-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px 20px;
+}
+
+.skip-link {
+    position: absolute;
+    top: -100px;
+    left: 10px;
+    background-color: white;
+    color: #8F2840;
+}
+
+.skip-link:focus {
+    top: 10px;
+}
+
+.logo {
+    color:#8F2840;
+
+}
+
+.nav {
+    display:flex;
+    gap: 22px;
+    flex-wrap:wrap;
+}
+
+.nav a {
+    color:black;
+  text-decoration: none;
+}
+
+.nav a:hover, .nav a:focus {
+  color: #8F2840;
+  text-decoration: underline;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.hero-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero-image {
+    width: 80%;
+     align-items: center;
+}
+
+.hero-section a:hover, .hero-section a:focus {
+  color: #8F2840;
+  text-decoration: underline;
+}
+
+.collections-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+    max-width: 800px;
+    margin: 30px auto;
+}
+
+.flower-card {
+    flex: 1 1 300px;
+    min-width: 0;
+}
+
+.flower-card a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.flower-card a:hover, .flower-card a:focus {
+  color: #8F2840;
+  text-decoration: underline;
+}
+
+.rose-image {
+    max-width: 100%;
+}
+
+.daisy-image {
+    max-width: 100%;
+}
+
+.lily-image {
+    max-width: 100%;
+}
+
+.peony-image {
+    max-width: 100%;
+}
+
+.video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    background-color: #F2C94C;
+}
+
+#highlights {
+    text-align: center;
+}
+
+.book-consultation {
+    display: block;
+    text-align: center;
+}
+
+.book-consultation:hover, .book-consultation:focus {
+  color: #8F2840;
+  text-decoration: underline;
+}
+
+.client-testimonial {
+     text-align: center;
+}
+
+#testimonials {
+    text-align: left;
+}
+
+.photo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100px;
+    background-color: #F2C94C;
+}
+
+footer {
+    background-color: #F7F3ED;
+    padding: 30px;
+}
+
+.footer-row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.footer-column {
+    flex: 1 1 200px;
+}
+
+.footer-nav {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.socialmedia {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.footer-nav a,
+.socialmedia a {
+    padding: 12px;
+}
+
+footer a:hover, footer a:focus {
+    color: #8F2840;
+    text-decoration: underline;
+}

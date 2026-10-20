@@ -2,11 +2,80 @@
   box-sizing: border-box;
 }
 
+
+.heebo-<uniquifier> {
+  font-family: "Heebo", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+.sora-<uniquifier> {
+  font-family: "Sora", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+body {
+    margin: 0;
+    font-family: "Heebo", sans-serif;
+    color: #030303;
+    background-color: #F7F3ED;
+
+    display: grid;
+    grid-template-areas:
+        "header"
+        "main"
+        "footer";
+}
+
+main {
+    grid-area: main;
+}
+
+footer {
+    grid-area: footer;
+}
+
+h1, h2, h3 {
+    font-family: "Sora", sans-serif;
+}
+
+h1 {
+    font-size: 56px;
+    line-height: 70px;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 36px;
+    line-height: 45px;
+    font-weight: 700;
+}
+
+h3 {
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 600;
+}
+
+p {
+    font-size: 22px;
+    line-height: 30px;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
 .site-header {
+    grid-area: header;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 14px 20px;
+    padding: 24px 60px;
 }
 
 .skip-link {
@@ -42,11 +111,6 @@
   text-decoration: underline;
 }
 
-img {
-    max-width: 100%;
-    height: auto;
-}
-
 .hero-section {
     display: flex;
     flex-direction: column;
@@ -64,13 +128,13 @@ img {
 }
 
 .collections-grid {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    gap: 40px;
     list-style: none;
     padding: 0;
-    max-width: 800px;
-    margin: 30px auto;
+    max-width: 1248px;
+    margin: 0 auto;
 }
 
 .flower-card {

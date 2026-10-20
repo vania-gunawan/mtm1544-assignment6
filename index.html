@@ -27,10 +27,13 @@
     <main id="main">
         <section class="hero-section">
              <img class="hero-image" src="images/hero.jpg"alt="Bride holding a wedding flower bouquet">
+             
+        <div class="hero-content">
              <h1>Wedding Flowers, Made for you</h1>
                 <p>Your vision, beautifully brought to life</p>
                 <a href="collections.html">Explore our Collections</a>
                 <!--Carousel indicators-->
+        </div>
         </section>
 
         <!--Collection Section-->
@@ -70,9 +73,9 @@
         </section>
                 
         <!--Wedding Highlights video section-->
-        <section>
+        <section class="wedding-highlights-section">
             <div class="video-container">
-                <p>Past Project Video</p>
+                <img src="images/wedding-highlights.jpg" alt="Bride and groom holding a wedding bouquet">
             </div>
 
         <h2 id="highlights">Wedding Highlights</h2>
@@ -116,8 +119,11 @@
 
         <div class="footer-column">
             <h2>Stay connected with us!</h2>
-            <label for="email">Email address</label>
-            <input type="email" id="email" name="email" autocomplete="email">
+            <form>
+                <label for="email">Email address</label>
+                <input type="email" id="email" name="email" autocomplete="email" required>
+                <button type="submit">Sign up</button>
+            </form>
         </div>
     </div>
     </footer>  

@@ -3,11 +3,11 @@ Assignment 6: Grid Page Layout
 
 ## Design Inventory
 ### Colour Palette
-- Primary: #1D4D0E
-- Secondary: #4D0E1C
-- Accent: #CC8B9A
-- Neutral-0 (Light Background & Text): #FFFFFF
-- Neutral-900 (Main Text & Dark Background): #000000
+- Primary: #8F2840
+- Secondary: #F2B3BE
+- Accent: #F2C94C
+- Neutral-0 (Light Background & Text): #F7F3ED
+- Neutral-900 (Main Text & Dark Background): #030303
 
 ### Typography
 
